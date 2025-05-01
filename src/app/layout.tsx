@@ -17,16 +17,42 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Chathura's Portfolio",
   description: 'Personal Portfolio of Chathura J Ekanayake - Software Engineer | Lead Web Developer',
-  keywords: ['Chathura J Ekanayake', 'Software Engineer', 'Lead Web Developer', 'Portfolio', 'React', 'Next.js', 'Tailwind CSS'],
-  authors: [{ name: 'Chathura J Ekanayake', url: 'https://github.com/chathuraje01' }], // Add your social/portfolio URL
+  keywords: [
+    'Chathura J Ekanayake',
+    'Software Engineer',
+    'Lead Web Developer',
+    'Portfolio',
+    'React',
+    'Next.js',
+    'Tailwind CSS',
+    'Full Stack Developer',
+    'Web Development',
+    'Sri Lanka',
+    'Tech Portfolio'
+  ],
+  authors: [{ name: 'Chathura J Ekanayake', url: 'https://github.com/chathuraje' }],
+  creator: 'Chathura J Ekanayake',
+  publisher: 'Chathura J Ekanayake',
+  robots: 'index, follow',
+  viewport: 'width=device-width, initial-scale=1.0',
+  themeColor: '#0f172a',
+  colorScheme: 'light dark',
+  manifest: '/site.webmanifest',
+  category: 'Technology',
+  applicationName: "Chathura's Portfolio",
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon-32x32.png',
+    apple: '/apple-touch-icon.png',
+  },
   openGraph: {
     title: "Chathura's Portfolio",
     description: 'Explore the projects and skills of Chathura J Ekanayake.',
-    url: 'https://chathuraje.dev', // Replace with your actual domain
-    siteName: "Chathura's Chronicle",
+    url: 'https://chathura.digitix365.com',
+    siteName: "Chathura's Portfolio",
     images: [
       {
-        url: 'https://picsum.photos/1200/630', // Replace with your OG image URL
+        url: '/profile.jpg',
         width: 1200,
         height: 630,
         alt: 'Chathura J Ekanayake Portfolio',
@@ -39,11 +65,10 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Chathura's Portfolio",
     description: 'Explore the projects and skills of Chathura J Ekanayake.',
-    // creator: '@yourtwitterhandle', // Replace with your Twitter handle if available
-    images: ['https://picsum.photos/1200/630'], // Replace with your Twitter image URL
+    images: ['https://chathura.digitix365.com/profile.jpg']
   },
-  // Add more metadata as needed, like icons, manifest, etc.
 };
+
 
 export default function RootLayout({
   children,
