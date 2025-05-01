@@ -92,7 +92,7 @@ const HeroSection = () => {
             transition={{ delay: 1 }}
           >
             <Button size="lg" asChild className="group">
-              <a href="/cv.pdf" download="Chathura_Ekanayake_CV.pdf">
+              <a href="/Chathura_Ekanayake_CV.pdf" download="Chathura_Ekanayake_CV.pdf">
                 Download CV{" "}
                 <Download className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>
