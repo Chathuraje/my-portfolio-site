@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: "Chathura's Portfolio",
     description: 'Explore the projects and skills of Chathura J Ekanayake.',
-    images: ['https://chathura.digitix365.com/profile.jpg']
+    images: ['https://chathura.digitix365.com/profile.jpeg']
   },
 };
 
