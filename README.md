@@ -17,7 +17,9 @@ A modern, interactive, and animated portfolio site built with **React**, **Tailw
 - **Tailwind CSS** – Utility-first styling
 - **Framer Motion** – Animations and transitions
 - **ShadCN UI** – Prebuilt UI components
-- **EmailJS or SMTP** – For contact form (optional)
+- **n8n Automations** – For contact form backend
+  
+![image](https://github.com/user-attachments/assets/fb531316-9cc1-4a4a-bfad-7af548e402a6)
 
 ## 📬 Contact
 
