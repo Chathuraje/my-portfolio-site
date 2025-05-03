@@ -57,7 +57,7 @@ const ContactSection = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await axios.post('/api/proxyWebhook', values);
+      const response = await axios.post('/api/sendMessage', values);
 
       if (!response.data || response.status !== 200) {
         throw new Error('Failed to send message');
