@@ -174,10 +174,9 @@ const ProjectsSection = () => {
                             ) : (
                               <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
                                 <ExternalLink className="h-4 w-4 mr-1" />
-                                View Project
+                                Live Demo
                               </a>
                             )}
-
                           </Button>
                         )}
                         {!project.githubUrl && !project.liveUrl && (
@@ -223,10 +222,17 @@ const ProjectsSection = () => {
                     )}
                     {project.liveUrl && (
                       <Button variant="default" size="sm" asChild>
-                        <Link href={project.liveUrl} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="h-4 w-4 mr-1" /> View Site
-
-                        </Link>
+                        {project.category === 'Page' ? (
+                          <a href={project.liveUrl} rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                            <ExternalLink className="h-4 w-4 mr-1" />
+                            View Portfolio
+                          </a>
+                        ) : (
+                          <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" onClick={(e) => e.stopPropagation()}>
+                            <ExternalLink className="h-4 w-4 mr-1" />
+                            Live Demo
+                          </a>
+                        )}
                       </Button>
                     )}
                   </div>
