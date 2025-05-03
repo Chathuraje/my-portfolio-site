@@ -21,6 +21,7 @@ import { useToast } from "@/hooks/use-toast";
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
 import Link from 'next/link';
+import axios from 'axios';
 // import { generateJwtToken } from '@/lib/jwt';
 
 // Define Zod schema for form validation
@@ -55,19 +56,10 @@ const ContactSection = () => {
   async function onSubmit(values: FormData) {
     setIsSubmitting(true);
 
-    // const token = await generateJwtToken();
-
     try {
-      const response = await fetch('https://digibot365-n8n.kdlyj3.easypanel.host/webhook/contact-form', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          // 'Authorization': `Bearer ${token}`,
-        },
-        body: JSON.stringify(values), // Send form data as JSON
-      });
+      const response = await axios.post('/api/proxyWebhook', values);
 
-      if (!response.ok) {
+      if (!response.data || response.status !== 200) {
         throw new Error('Failed to send message');
       }
 
