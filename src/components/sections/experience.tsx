@@ -6,72 +6,81 @@ import { Briefcase } from 'lucide-react';
 
 const experienceData = [
   {
-    role: 'Lead Web Developer',
-    company: 'Code94 Labs',
+    role: 'Software Engineer / Associate Software Engineer',
+    company: 'Code94 Labs (Pvt) Ltd',
     location: 'Remote - Sri Lanka',
-    duration: 'February 2022 - Present',
+    duration: 'February 2022 – Present',
     details: [],
     subRoles: [
       {
-        role: 'Lead Web Developer (Jan 2024 – Present)',
+        role: 'Software Engineer (Jan 2024 – Present)',
         details: [
-          'Leading a team of developers, managing project timelines, deliverables, and technical direction.',
-          'Responsible for project analysis, system architecture design, and technical research to support scalable web solutions.',
-          'Integrated external APIs into the WordPress ecosystem and implemented workflow automation using Zapier.',
-          'Oversaw complex WordPress customizations, ensuring seamless performance across projects.',
+          'Architected and developed full-stack applications using React.js and Next.js to deliver high-performance user experiences.',
+          'Built serverless automations and AI workflows using n8n and custom APIs to enhance business process efficiency.',
+          'Utilized AWS (Lambda, S3, EC2, CloudWatch) for scalable backend deployment and cloud infrastructure management.',
+          'Led CI/CD automation using GitHub Actions and AWS CodePipeline to ensure stable, rapid deployments.',
+          'Collaborated in agile environments, ensuring clean code quality, feature delivery, and cross-team alignment.',
         ],
       },
       {
-        role: 'Senior Web Developer (Feb 2023 – Dec 2023)',
+        role: 'Associate Software Engineer (Feb 2022 – Dec 2023)',
         details: [
-          'Customized Elementor and developed advanced WordPress themes and plugins tailored to client needs.',
-          'Handled API integrations and supported backend enhancements within the WordPress ecosystem.',
-          'Conducted project analysis and feasibility studies to propose optimized technical solutions.',
+          'Developed frontend UIs with React, Material UI, and Tailwind CSS, focusing on responsive design and seamless UX.',
+          'Integrated REST APIs and Firebase Firestore for real-time data sync and scalable NoSQL storage.',
+          'Contributed to project planning, sprint cycles, and code documentation efforts.',
+          'Assisted in building backend services using Node.js and Express for multiple internal and client-facing platforms.',
         ],
       },
-      {
-        role: 'Web Developer (Feb 2022 – Jan 2023)',
-        details: [
-          'Gained practical experience in full-stack TypeScript development by helping build a complete MERN stack food catering system (MongoDB, Express.js, React, Node.js).',
-          'Contributed to debugging, testing, and performance improvements across various client projects.',
-        ],
-      },
-    ],
-  },
-  {
-    role: 'Associate Software Engineer',
-    company: 'Terratecma',
-    location: 'Remote - Norway',
-    duration: 'August 2021 – February 2022',
-    details: [
-      'Full-stack development with Django and Laravel. Built custom modules and optimized SQL queries.',
-      'Gained hands-on experience in WordPress plugin development.',
-      'Built a school management system from scratch using the Laravel framework.',
     ],
   },
   {
     role: 'Software Engineer Intern',
-    company: 'Yomboc',
-    location: 'Remote - Sri Lanka (Thissa Jananayake)',
-    duration: 'March 2021 – August 2021',
+    company: 'Terratecma (Pvt) Ltd',
+    location: 'Remote - Norway',
+    duration: 'August 2021 – February 2022',
     details: [
-      'Hands-on experience with Django, Firebase, and cross-platform integration.',
-      'Developed and integrated an online learning platform for Mr. Thissa Jananayake’s Sipsuru online classes.',
-      'Gained initial exposure to WordPress development and design during the internship.',
+      'Built and enhanced full-stack web apps using Django and Laravel frameworks.',
+      'Created custom modules and optimized database performance with SQL.',
+      'Gained foundational experience with WordPress plugin development and CMS architecture.',
+    ],
+  },
+  {
+    role: 'WordPress Developer / Trainee System Administrator',
+    company: 'Yomboc (Pvt) Ltd',
+    location: 'Remote - Sri Lanka',
+    duration: 'October 2020 – August 2021',
+    details: [
+      'Built WordPress sites using Elementor, custom themes, and plugins tailored to client requirements.',
+      'Configured domains, DNS, SSL, and server resources using cPanel, WHM, and shared hosting tools.',
+      'Monitored server performance, optimized caching, and managed Linux-based hosting environments.',
+      'Assisted in deployment and staging-to-production workflows, ensuring secure and smooth rollouts.',
+    ],
+  },
+  {
+    role: 'Software Engineer Intern',
+    company: 'Sipsuru - Tissa Jananayake',
+    location: 'Remote - Sri Lanka',
+    duration: 'March 2021 – August 2021 (concurrent)',
+    details: [
+      'Developed an online learning platform using Django and Firebase for Sipsuru education services.',
+      'Integrated real-time data features and user management using Firebase Firestore and Authentication.',
+      'Participated in agile routines, technical documentation, and code testing across internal tools.',
     ],
   },
   {
     role: 'Software & Web Developer',
-    company: 'Freelance',
-    location: 'Self-employed',
-    duration: 'January 2010 – Present',
+    company: 'Freelance / Self-employed',
+    location: 'Remote',
+    duration: '2010 – Present',
     details: [
-      'Developed websites and systems across various sectors, specializing in WordPress, plugin development, and server deployments.',
-      'Built advanced AI automation workflows using n8n and Make.com.',
-      'Created a WordPress auto-publishing system integrated with ChatGPT API for content creation, image generation, SEO optimization, drafting, and publishing.',
+      'Delivered full-stack projects for clients across e-commerce, education, healthcare, and media.',
+      'Built WordPress ecosystems with custom plugins, dynamic admin panels, and REST API integrations.',
+      'Created AI-driven automation systems using n8n, Make.com, and OpenAI (ChatGPT) APIs for auto-publishing, SEO, and image generation.',
+      'Maintained web servers, handled deployments, SSL, security hardening, and performance tuning.',
     ],
   },
 ];
+
 
 const ExperienceSection = () => {
   const sectionVariants = {

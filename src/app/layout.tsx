@@ -21,11 +21,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Chathura's Portfolio",
-  description: 'Personal Portfolio of Chathura J Ekanayake - Software Engineer | Lead Web Developer',
+  description: 'Personal Portfolio of Chathura J Ekanayake - Software Engineer',
   keywords: [
     'Chathura J Ekanayake',
     'Software Engineer',
-    'Lead Web Developer',
     'Portfolio',
     'React',
     'Next.js',

@@ -63,7 +63,7 @@ const AboutSection = () => {
                   <AccordionItem value="item-3">
                     <AccordionTrigger>Backend Development & Automation</AccordionTrigger>
                     <AccordionContent>
-                      Node.js, Express.js, Next.js, Django, Laravel, FastAPI, n8n, Make.com
+                      Node.js, Express.js, Next.js, Django, Laravel, FastAPI, n8n, Make.com, Nest.Js
                     </AccordionContent>
                   </AccordionItem>
                   <AccordionItem value="item-4">
